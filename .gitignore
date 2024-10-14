@@ -1,0 +1,74 @@
+# Node.js dependencies (both frontend and backend)
+node_modules/
+
+# Logs (both frontend and backend)
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (both frontend and backend)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data (both frontend and backend)
+pids/
+*.pid
+*.pid.lock
+
+# Directory for uploading files (backend)
+uploads/
+
+# Build directory (frontend and backend)
+build/
+dist/
+
+# Cache files for frontend
+.cache/
+.next/
+out/
+
+# Coverage directory used by testing tools (both frontend and backend)
+coverage/
+
+# Lint and formatting
+.eslintcache
+.stylelintcache
+
+# IDE settings (both frontend and backend)
+.vscode/
+.idea/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache directory
+.cache/
+
+# Parcel-bundler cache (frontend)
+.parcel-cache/
+
+# Service worker cache (frontend)
+.sass-cache/
+.pnp/
+.pnp.js
+
+# TypeScript declaration files (if using TypeScript)
+*.d.ts
+
+# TypeScript compiled files (if using TypeScript)
+*.tsbuildinfo
+
+# MacOS files (optional)
+.DS_Store
+
+# Windows thumbnail cache files (optional)
+Thumbs.db
+
+# Docker files (optional)
+docker-compose.override.yml
+docker-compose.debug.yml
