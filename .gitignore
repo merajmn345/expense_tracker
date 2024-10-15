@@ -72,4 +72,5 @@ Thumbs.db
 # Docker files (optional)
 docker-compose.override.yml
 docker-compose.debug.yml
-frontend
+frontend/node_modules
+backend/node_modules
